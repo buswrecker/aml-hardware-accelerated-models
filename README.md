@@ -22,6 +22,7 @@ These samples assume you are familiar with the Azure ML Hardware Accelerated Mod
 git clone https://github.com/Azure-Samples/aml-hardware-accelerated-models.git
 cd aml-hardware-accelerated-models
 pip install azureml-accel-models[cpu]
+pip install azureml-contrib-iot
 pip install jupyter
 jupyter notebook
 ```

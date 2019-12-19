@@ -16,7 +16,7 @@ RUN apt-get update && \
 # Update pip and install dependencies for installing AzureML SDK
 RUN pip3 install --upgrade pip && \
     pip install setuptools && \
-    pip install tensorflow
+    pip install tensorflow==1.15.0
 
 # Install IoT Device Client SDK and AzureML SDK (requires --upgrade flag)
 RUN pip install azure-iothub-device-client && \
